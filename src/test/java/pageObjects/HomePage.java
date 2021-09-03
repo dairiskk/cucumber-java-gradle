@@ -12,7 +12,4 @@ public class HomePage extends DriverManager {
     WebElement timeTableAndPlacesSectionFromDate = timeTableAndPlacesSection.findElement(By.xpath("//input[@id= 'datepicker-first']"));
     WebElement timeTableAndPlacesSectionToDate = timeTableAndPlacesSection.findElement(By.xpath("//input[@id= 'datepicker-second']"));
     WebElement timeTableAndPlacesSectionSubmitButton = timeTableAndPlacesSection.findElement(By.xpath("//input[@type= 'submit']"));
-
-
-
 }
