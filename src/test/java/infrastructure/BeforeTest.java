@@ -36,7 +36,8 @@ public class BeforeTest {
             if ("firefox".equals(browser)) {
                 System.out.println("Using browser Firefox");
                 ChromeOptions chromeOptions = new ChromeOptions();
-                System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+                WebDriverManager.firefoxdriver().setup();
+                System.setProperty("webdriver.chrome.driver", "/usr/bin/firefox");
                 chromeOptions.addArguments("--no-sandbox");
                 chromeOptions.addArguments("-window-size=1920,1080");
                 driver = new ChromeDriver(chromeOptions);
