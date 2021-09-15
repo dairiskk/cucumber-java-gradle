@@ -1,7 +1,7 @@
 @test
-Feature: This is feature
+Feature: Client data is saved
 
-  Scenario: Test scenario
+  Scenario: Trip data is saved after user cancels the login
     Given I navigate to "https://www.cp.pt/"
     Then I switch language to "english"
     Then I click on "Buy Tickets" navigation menu
