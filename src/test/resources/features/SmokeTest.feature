@@ -18,8 +18,8 @@ Feature: This is feature
     Then I press "agree with terms checkbox" in service page
     Then I press "continue button" in service page
     Then I validate element visibility in Ticket Office Options section
-      | email    | is |
-      | password | is |
+      | email    | is visible |
+      | password | is visible |
     Then I click on "cancel button" in Options page
     Then I validate that currently "buy tickets" page is opened
     Then I validate that buy tickets page contains correct values
