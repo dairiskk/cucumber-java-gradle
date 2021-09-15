@@ -32,7 +32,7 @@ task cucumber() {
             args = [
                     '--plugin', 'pretty',
                     '--glue', 'infrastructure',
-                    '--glue', 'steps',
+                    '--glue', 'pageObjects',
 //                    '--tags', tagName,
                     '--tags', "not @ignore",
                     'src/test/resources/features']
